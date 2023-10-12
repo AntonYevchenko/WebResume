@@ -1,0 +1,312 @@
+body {
+  background: rgb(149, 162, 173);
+  padding: 40px 40px 40px 40px;
+  font-family: "Montserrat", sans-serif;
+}
+summary,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+.wrapper {
+  background: rgb(177, 191, 204);
+  display: flex;
+  flex-direction: row-reverse;
+  width: 739px;
+  margin: 0 auto;
+}
+.main-content {
+  padding-left: 40px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.sidebar {
+  background: rgb(145, 169, 192);
+  padding-right: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 39%;
+}
+.photo {
+  padding-left: 38px;
+  padding-top: 30px;
+  padding-right: 5px;
+}
+.sidebar-content {
+  padding-left: 38px;
+  padding-top: 30px;
+  padding-right: 5px;
+}
+.contacts-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.contacts-type {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+.contacts-link {
+  color: #03358a;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  font-style: italic;
+}
+.contacts-item {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.contacts-container {
+  margin-bottom: 40px;
+}
+.skills-container {
+  margin-bottom: 40px;
+}
+.skills-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.skills-list {
+  padding-left: 32px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -5px;
+  list-style-type: square;
+}
+
+/*Main content*/
+.my-professional {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-name {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-bottom: 0px;
+  margin-top: 0;
+  text-align: center;
+}
+
+/*about me*/
+.title-hidden-description {
+  color: #383838;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-top: 6px;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+.hidden-description {
+  color: #383838;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  padding-right: 10px;
+  text-indent: 20px;
+}
+.my-info {
+  margin-bottom: 40px;
+}
+
+/*My projects*/
+.my-projects-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.my-projects-list {
+  padding-left: 18px;
+}
+.my-projects-item {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+  padding-bottom: 6px;
+  padding-top: 0px;
+}
+.my-projects-item-link {
+  color: #033996;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+.my-projects-container {
+  margin-bottom: 40px;
+}
+.my-projects-hidden-description {
+  color: #383838;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  padding-right: 10px;
+}
+/*Education*/
+.education-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+}
+.education-platform {
+  color: #4773cd;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+.education-course {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.my-education-list {
+  padding-left: 18px;
+  padding-top: 0;
+  list-style-type: square;
+  padding-bottom: 10px;
+}
+.education-link {
+  color: #033996;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+  font-style: italic;
+}
+.education-delimiter {
+  color: #595959;
+  font-weight: 520;
+}
+.codewars-badges {
+  padding-top: 15px;
+  width: 90%;
+}
+@media screen and (max-width: 600px) {
+  body {
+    padding: 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .main-content {
+    padding: 15px;
+  }
+  .sidebar {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .sidebar-row {
+    display: flex;
+    justify-content: center;
+  }
+  .skills-title {
+    text-align: center;
+  }
+  .skills-list {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+  .contacts-title {
+    text-align: center;
+  }
+  .photo {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    padding: 0;
+  }
+  .my-name {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .my-professional {
+    text-align: center;
+    margin-top: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .title-hidden-description {
+    text-align: center;
+  }
+  .hidden-description {
+    padding-left: 15px;
+  }
+  .my-projects-title {
+    text-align: center;
+  }
+  .my-projects-container {
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .education-title {
+    text-align: center;
+  }
+  .education-link {
+    float: right;
+    margin-top: -4px;
+  }
+  .codewars-badges {
+    width: 100%;
+  }
+  .contacts-container {
+    margin: 15px;
+    padding: 0;
+  }
+  .sidebar-content {
+    margin: 0;
+    padding: 0;
+  }
+  .contacts-link {
+    float: right;
+    padding-top: 2px;
+  }
+}
