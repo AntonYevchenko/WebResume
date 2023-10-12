@@ -1,5 +1,5 @@
 body {
-  background: rgb(149, 162, 173);
+  background: rgb(172, 181, 189);
   padding: 40px 40px 40px 40px;
   font-family: "Montserrat", sans-serif;
 }
@@ -8,7 +8,7 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 .wrapper {
-  background: rgb(177, 191, 204);
+  background: rgb(190, 208, 224);
   display: flex;
   flex-direction: row-reverse;
   width: 739px;
@@ -23,7 +23,7 @@ a {
   width: 100%;
 }
 .sidebar {
-  background: rgb(145, 169, 192);
+  background: rgb(163, 187, 209);
   padding-right: 40px;
   padding-bottom: 40px;
   box-sizing: border-box;
