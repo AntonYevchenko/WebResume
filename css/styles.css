@@ -254,10 +254,12 @@ a {
     margin-right: 0;
     margin-left: 0;
     padding: 0;
-    padding-left: 15px;
-    padding-right: 15px;
+  }
+  .contacts-type {
+    font-size: 12px;
   }
   .contacts-link {
+    font-size: 12px;
     float: right;
     padding-top: 2px;
   }
