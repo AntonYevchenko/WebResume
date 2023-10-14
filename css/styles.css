@@ -256,12 +256,12 @@ a {
     padding: 0;
   }
   .contacts-type {
-    font-size: 12px;
+    font-size: 13px;
   }
   .contacts-link {
     font-size: 12px;
     float: right;
-    padding-top: 2px;
+    padding-top: 3px;
   }
   .photo {
     width: 85%;
