@@ -1,6 +1,6 @@
 body {
   background: rgb(172, 181, 189);
-  padding: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
   font-family: "Montserrat", sans-serif;
 }
 summary,
@@ -18,7 +18,7 @@ a {
   padding-left: 40px;
   padding-top: 80px;
   padding-right: 40px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   box-sizing: border-box;
   width: 100%;
 }
@@ -30,13 +30,15 @@ a {
   width: 39%;
 }
 .photo {
-  padding-left: 38px;
+  width: 92%;
   padding-top: 30px;
-  padding-right: 5px;
+  padding-left: 30px;
+  padding-bottom: 0;
+  margin: 0;
 }
 .sidebar-content {
-  padding-left: 38px;
-  padding-top: 30px;
+  padding-left: 30px;
+  padding-top: 0;
   padding-right: 5px;
 }
 .contacts-title {
@@ -44,8 +46,8 @@ a {
   font-size: 22px;
   font-weight: 700;
   line-height: normal;
-  margin-top: 0;
   margin-bottom: 8px;
+  padding-top: 0;
 }
 .contacts-type {
   color: #161d2a;
@@ -66,10 +68,10 @@ a {
   margin-bottom: 8px;
 }
 .contacts-container {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .skills-container {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .skills-title {
   color: #161d2a;
@@ -96,6 +98,7 @@ a {
   line-height: 17px;
   margin-top: 0;
   margin-bottom: 8px;
+  text-align: center;
 }
 .my-name {
   color: #000;
@@ -261,7 +264,7 @@ a {
   .contacts-link {
     font-size: 12px;
     float: right;
-    padding-top: 3px;
+    padding-top: 4px;
   }
   .photo {
     width: 85%;
@@ -272,7 +275,7 @@ a {
     padding: 0;
   }
   .my-name {
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     margin-top: 35px;
     position: absolute;
@@ -281,6 +284,7 @@ a {
     right: 0;
   }
   .my-professional {
+    font-size: 14px;
     text-align: center;
     margin-top: 25px;
     position: absolute;
@@ -293,9 +297,12 @@ a {
   }
   .hidden-description {
     padding-left: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   .my-projects-title {
     text-align: center;
+    margin-top: 30px;
   }
   .my-projects-container {
     padding-left: 0;
@@ -304,10 +311,15 @@ a {
   }
   .education-title {
     text-align: center;
+    margin-top: -30px;
+  }
+  .my-education-list {
+    padding-bottom: 0;
   }
   .education-link {
     float: right;
     margin-top: -4px;
+    font-size: 14px;
   }
   .codewars-badges {
     width: 100%;
@@ -316,5 +328,49 @@ a {
   .sidebar-content {
     margin: 0;
     padding: 0;
+  }
+  @media screen and (max-width: 354px) {
+    .my-name {
+      font-size: 26px;
+    }
+    .my-professional {
+      font-size: 13px;
+    }
+    .education-link {
+      float: right;
+      margin-top: -4px;
+      font-size: 13px;
+    }
+    .education-course {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 335px) {
+    .my-name {
+      font-size: 24px;
+    }
+    .my-professional {
+      font-size: 12px;
+    }
+    .education-link {
+      float: right;
+      margin-top: -4px;
+      font-size: 12px;
+    }
+    .education-course {
+      font-size: 12px;
+    }
+    .contacts-title {
+      font-size: 20px;
+    }
+    .skills-title {
+      font-size: 20px;
+    }
+    .education-title {
+      font-size: 20px;
+    }
+    .my-projects-title {
+      font-size: 20px;
+    }
   }
 }
