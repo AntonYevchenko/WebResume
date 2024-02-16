@@ -225,7 +225,7 @@ a {
 .codewars-badges {
   padding-top: 16px;
   width: 90%;
-  margin-bottom: 24px;
+  margin-bottom: 0;
 }
 @media screen and (max-width: 600px) {
   body {
