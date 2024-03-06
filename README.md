@@ -1,3 +1,3 @@
 # WebResume
 deployments link - https://anton-yevchenko-resume.netlify.app/
-the site is adapted for mobile device 
+the site is also adapted for mobile device 
