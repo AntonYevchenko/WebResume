@@ -16,7 +16,7 @@ a {
 }
 .main-content {
   padding-left: 40px;
-  padding-top: 76px;
+  padding-top: 36px;
   padding-right: 40px;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -128,7 +128,7 @@ a {
   font-weight: 400;
   line-height: 24px;
   font-style: italic;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   margin-top: 0px;
   padding-right: 10px;
   text-indent: 20px;
